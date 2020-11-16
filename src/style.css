@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* Previous Value */
+/* (to right bottom,rgba(116, 235, 213, 0.76), rgba(172, 182, 229, 0.8)) */
+
+.main_navigation_header{
+    background-image: linear-gradient(to right bottom,rgba(255, 175, 189, 0.8), rgba(255, 195, 160, 0.8)) ,url('/img/modeal-header-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 95vh;
+    background-position: center;
+    /* font-family: 'Eczar'; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%)
+}
+
+.text-background{
+    /* background-image: linear-gradient(to right bottom,rgba(255, 175, 188, 0.404), rgba(255, 195, 160, 0.507)) */
+    background: #bcffaf;
+    height: 100%;
+}
+
+.inner-text-welcome{
+    color: rgba(255,175,189,0.8);
+}
+
+.button-text-title{
+    color: #bcffaf;
+}
+
+.button-text-background{
+    background: rgba(255,175,189,0.8);
+}
+
+.button-text-title:hover{
+    /* color: rgba(255,175,189,0.8); */
+    color: rgb(255,175,189)
+}
+
+.button-text-background:hover{
+    background: #bcffaa;
+}
+
+/* .main_navigation_primary_text h3{
+    font-family: 'Inter';
+} */
+
